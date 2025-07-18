@@ -6,7 +6,7 @@
 
   <groupId>me.nullptr.lox</groupId>
   <artifactId>jlox</artifactId>
-  <version>0.1.4</version>
+  <version>0.1.5</version>
 
   <name>jlox</name>
   <!-- FIXME change it to the project's website -->

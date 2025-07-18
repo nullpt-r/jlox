@@ -2,9 +2,9 @@ host := `uname -a`
 
 name := "jlox"
 out := "out/jlox"
-version := "0.1.4"
+version := "0.1.5"
 
-build: clean jar
+build: jar
     mkdir -p out
     cat stub.sh target/{{name}}-{{version}}.jar > {{out}} && chmod +x {{out}}
 
