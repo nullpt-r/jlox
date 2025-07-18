@@ -10,4 +10,4 @@ jar:
     mvn package
 
 install: build
-    cp jlox /usr/local/bin
+    sudo cp jlox /usr/local/bin
