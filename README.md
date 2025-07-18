@@ -3,18 +3,25 @@
 
 `jlox` is a programming language mode in Java based on the Java part of [Crafting Interpreters](https://www.craftinginterpreters.com/)
 
+# Installing
+
 # Building
 ## Prerequisites
 
 - [just](https://github.com/casey/just)
 - maven
-- JDK 21+
+- JDK 21+ 
 
-## *nix and Windows with MinGW/Cygwin\*
+## *nix and Windows with MinGW/Cygwin\* \*\*
 ```sh
 just build
 ```
+or
+```sh
+just install
+```
 \* This is untested on Windows, if it fails use the other method
+\*\* Installing only works on *nix
 
 ## Windows
 To use on Windows add
