@@ -1,13 +1,19 @@
 host := `uname -a`
 
+name := "jlox"
+out := "out/jlox"
+version := "0.1.4"
+
 build: clean jar
-    cat stub.sh target/jlox-1.0-SNAPSHOT.jar > jlox && chmod +x jlox
+    mkdir -p out
+    cat stub.sh target/{{name}}-{{version}}.jar > {{out}} && chmod +x {{out}}
 
 clean:
     mvn clean
+    rm -r out
 
 jar:
     mvn package
 
 install: build
-    sudo cp jlox /usr/local/bin
+    sudo cp {{out}} /usr/local/bin
