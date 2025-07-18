@@ -8,3 +8,6 @@ clean:
 
 jar:
     mvn package
+
+install: build
+    cp jlox /usr/local/bin
