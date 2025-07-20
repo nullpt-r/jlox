@@ -2,7 +2,7 @@ host := `uname -a`
 
 name := "jlox"
 out := "out/jlox"
-version := "0.1.8"
+version := "0.1.9"
 
 build: jar
     mkdir -p out
