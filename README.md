@@ -10,7 +10,7 @@
 
 - [just](https://github.com/casey/just)
 - maven
-- JDK 21+ 
+- JDK 21
 
 ## *nix and Windows with MinGW/Cygwin\* \*\*
 ```sh
